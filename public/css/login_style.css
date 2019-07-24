@@ -1,0 +1,37 @@
+.button {
+    background-color:  rgb(135, 158, 147); /* Green */
+    border: none;
+    color: rgb(255, 224, 224);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: rgb(255, 224, 224); 
+    color: rgb(135, 158, 147); 
+    border: 2px solid  rgb(135, 158, 147);
+  }
+  .button1:hover {
+    background-color: rgb(135, 158, 147);
+    color: rgb(255, 224, 224);
+  }
+  
+  #Greeting{
+    font-size:7vw; 
+    color:rgb(255, 224, 224);
+    margin: auto;
+    width: 90%;
+  }
+  .logmain {
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding-top: 50px;
+  }
