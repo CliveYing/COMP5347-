@@ -1,0 +1,172 @@
+<html>
+<head>
+<link rel="stylesheet" href="/css/mainpage2.css" />
+<link rel="stylesheet" href="/css/login_style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="/js/mainpage.js"></script>
+<script src="/js/login.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<!-- <script src="https://www.gstatic.com/charts/loader.js"></script> -->
+<script src="/js/graphs.js"></script>
+<!-- <script type="text/javascript" src="https://www.google.com/jsapi"></script> -->
+<!-- <script type="text/javascript">google.load('visualization', '1.0', {'packages':['corechart']});</script> -->
+
+
+</head>
+<body style="background-color:black">
+
+<h2 style ="color:rgb(255, 224, 224)">Individual Analytics</h2>
+
+<p style="color:rgb(255, 224, 224); text-align: center;">In individual analytics, we are able to find the highest and lowest number of revisions, and in the below part, there will be pie chart and bar chart showing.</p>
+<hr/>
+<!-- <div style="background-color:black"> -->
+    <div>
+    <h2 style ="color:rgb(255, 224, 224)">Function1</h2>
+    <h4 class="mainPageHeadingColor">(Please input revision name)</h4>
+    <h2 class="mainPageHeadingColor">Revision name:</h2>
+    <table class="center">
+            <tr>
+                <td> 
+                    <p id='section2' style="float:left">
+                    <!-- <label class="w3-text-blue" id = "pass" stlye=float:left><b>Title of the book: </b></label> -->
+                    <input class="w3-input w3-border" name="bookTitleFunc2" type="text" id ="unumber3" style="float:left">
+                    <span>
+                    <button class="button button1" id="function2FirstButton">Submit</button>        
+                    </span>
+                    </br>
+                    </p>
+                </td>
+                <td>
+                <div id= "IndiFunction1ResultBox" style="color: white; font-size: 24px">
+        
+                </div>    
+                <div id = "FinalResultBox" style="color: white; font-size: 24px">
+
+                </div>
+                </td>
+                <!-- <td>Image2</td> -->
+                <!-- <td>Image3</td> -->
+            </tr>
+            </table>
+</div>
+                    <hr/>
+                    <h2 style ="color:rgb(255, 224, 224)">Pie chart</h2>
+                    <button class="button button1" id="function2SecondButton" style=' width: 20%;
+                    margin-left: 40%;
+                    margin-right: 40%' >Get Pie Chart</button>        
+                    <table>
+                            <tr>
+                                <td> 
+                                    <p id='section2' >
+                                    <!-- <label class="w3-text-blue" id = "pass" stlye=float:left><b>The number of unique users: </b></label> -->
+                                    <br>
+                                    <!-- <input class="w3-input w3-border" name="number" type="text" id ="unumber6" style="float:left"> -->
+                                    <span>
+                                    
+                                    </span>
+                                    </br>
+                                    </p>
+                                </td>
+                                <td>
+                                <div id= "function2pieChartSec" style='background-color:white; width: 20%;
+                                margin-left: 40%;
+                                margin-right: 40%' >
+                                    
+                                </div>    
+                                </td>
+                                <!-- <td>Image2</td> -->
+                                <!-- <td>Image3</td> -->
+                            </tr>
+                            </table>
+                </div>
+                <!-- <div style="background-color:black"> -->
+                    <div>
+                    <hr/>
+                    <h2 style ="color:rgb(255, 224, 224)">Bar chart</h2>
+                    <button class="button button1" id="function2ThirdButton" style=' width: 20%;
+                    margin-left: 40%;
+                    margin-right: 40%'>Get Bar Chart</button>        
+                    <table>
+                            <tr>
+                                <td> 
+                                    <p id='section2' >
+                                    <!-- <label class="w3-text-blue" id = "pass" stlye=float:left><b>The number of unique users: </b></label> -->
+                                    <br>
+                                    <!-- <input class="w3-input w3-border" name="number" type="text" id ="unumber6" style="float:left"> -->
+                                    <span>
+                                    
+                                    </span>
+                                    </br>
+                                    </p>
+                                </td>
+                                <td>
+                                <div id= "function2BarChartSec" style='background-color:white; margin-left: 12%;
+                                margin-right: 40%'>
+                        
+                                </div>    
+                                </td>
+                                <!-- <td>Image2</td> -->
+                                <!-- <td>Image3</td> -->
+                            </tr>
+                            </table>
+                </div>
+                <!-- <div style="background-color:black"> -->
+                    <div>
+                    <hr/>
+                    <h2 style ="color:rgb(255, 224, 224)">Bar chart with range input</h2>
+                    <p style="display: inline;color:rgb(255, 224, 224); margin-left: 40%;
+                    margin-right: 40%;">Please select the user: </p>
+                    <select id="selectionBox" style="color:rgb(255, 224, 224); margin-left: 40%;
+                    "></select>
+                    <!-- <button class="button button1"  id="function2FourthButton">Submit</button> -->
+                    <!-- <p id="UniqueNumberAuthor" style="display: inline ;color:white; margin-left: 40%;
+                    margin-right: 40%;"></p> -->
+                    <!-- <p id="Top5AuthorList" style="display: block; visibility: hidden;" ></p> -->
+                    <!-- <p id="UniqueNumberSentence" style="display:inline; color:white; margin-left: 40%;
+                    margin-right: 40%;" ></p> -->
+                    <!-- <strong id="UniqueNumberAuthor" style="color:white; margin-left: 40%;
+                    margin-right: 40%" ></strong> -->
+                    <h3 style="color:rgb(255, 224, 224); margin-left: 40%;
+                    margin-right: 40%">Range: </h3>
+                    <h3 style="color:rgb(255, 224, 224); margin-left: 40%;
+                    margin-right: 40%">From</h3>
+                    <input class="w3-input w3-border" name="bookTitleFunc2" type="text" id ="fromRange" style='background-color:white; width: 20%;
+                    margin-left: 40%;
+                    margin-right: 40%'>
+                    <h3 style="color:rgb(255, 224, 224); margin-left: 40%;
+                    margin-right: 40%">End</h3>
+                    <input class="w3-input w3-border" name="bookTitleFunc2" type="text" id ="endRange" style='background-color:white; width: 20%;
+                    margin-left: 40%;
+                    margin-right: 40%'>
+                    <button class="button button1" id="function2FourthButton" style=' width: 20%;
+                    margin-left: 40%;
+                    margin-right: 40%'>Get Bar Chart</button>        
+                    <table>
+                            <tr>
+                                <td> 
+                                    <p id='section2' >
+                                    <!-- <label class="w3-text-blue" id = "pass" stlye=float:left><b>The number of unique users: </b></label> -->
+                                    <br>
+                                    <!-- <input class="w3-input w3-border" name="number" type="text" id ="unumber6" style="float:left"> -->
+                                    <span>
+                                    
+                                    </span>
+                                    </br>
+                                    </p>
+                                </td>
+                                <td>
+                                <div id= "function2BarChartSecRanged" style=' margin-left: 12%;
+                                margin-right: 40%'>
+                        
+                                </div>    
+                                </td>
+                                <!-- <td>Image2</td> -->
+                                <!-- <td>Image3</td> -->
+                            </tr>
+                            </table>
+                </div>
+  <!-- Site footer -->
+
+</body>
+</html>

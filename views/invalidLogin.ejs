@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/css/login_style.css" />
+</head>
+<style>
+span{
+  font-size: 25px;
+  color: rgb(255, 224, 224);
+  /* background-color: rgb(255, 224, 224); */
+  padding: 50px;
+}
+div{
+  font-size: 25px;
+  color: rgb(255, 224, 224);
+  background-color: transparent;
+  padding: 50px;
+  /* border-top: 50px; */
+}
+</style>
+<script>
+$(document).ready(function(){
+  $("#backtohome").click(function(){
+    window.location.href='/';
+  });
+});
+</script>
+<body>
+<span>Oops...<br></span>
+<div>
+Wrong account name or password. Please try again.
+</div>
+<button  class="button button1" id="backtohome">Back to Home</button></p>
+</body>
+</html>
